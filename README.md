@@ -61,7 +61,7 @@ $ catkin_make
 Step3. Run use ros_modbus.
 
 ``` bash
-$ rosrun ros_modbus 
+$ rosrun ros_modbus ros_modbus_tcp
 ```
 
 -----
@@ -69,6 +69,7 @@ $ rosrun ros_modbus
 # Reference
 
 [1]. libmodbus. https://libmodbus.org/documentation/
+
 ------
 
 This repository is for your reference only. copying, patent application, academic journals are strictly prohibited.

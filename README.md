@@ -1,14 +1,12 @@
 # ros_modbus
 
-ros_modbus used libmodbus library can do write and read register function.
+- ros_modbus used libmodbus library can do write and read register function.
 
-OS: Linux Ubuntu.
+- OS: Linux Ubuntu.
 
-Software: Robot Operating Sysyem, libmodbus.
+- Software: Robot Operating Sysyem, libmodbus.
 
-------
-
-Step1. Download libmodbus.
+- Step1. Download libmodbus.
 
 ``` bash
 $ wget http://libmodbus.org/site_media/build/libmodbus-3.0.5.tar.gz
@@ -38,7 +36,7 @@ $ make
 $ sudo make install
 ```
 
-Step2. use ros_modbus.
+- Step2. use ros_modbus.
 
 ``` bash
 $ cd <catkin_ws>/src
@@ -58,7 +56,7 @@ $ catkin_make
 
 -----
 
-Step3. Run use ros_modbus.
+- Step3. Run use ros_modbus.
 
 ``` bash
 $ rosrun ros_modbus ros_modbus_tcp
